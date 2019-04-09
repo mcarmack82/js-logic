@@ -204,7 +204,6 @@ console.log(spareChange(100))
 */ 
 
 
-
 /*
  * #10
  * Function - evenStevens
@@ -309,6 +308,10 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+var players = [1, 2, 3, 4, 5];
+for(var i = 0; i<players.length; i++){
+  console.log('Players: ', players[i])
+}
 
 /* 
  * #16
