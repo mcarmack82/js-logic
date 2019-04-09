@@ -180,7 +180,14 @@ console.log(notEqual('hello', 'hello'))
  * Console.log your result.
 */ 
 
-
+function spareChange(money){
+  if(money>100){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(spareChange(100))
 
 /*
  * #9
