@@ -203,6 +203,14 @@ console.log(spareChange(100))
  * Console.log your result.
 */ 
 
+function dirty30(one, two, three){
+  if(one + two + three > 30){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(dirty30(5, 5, 5))
 
 /*
  * #10
@@ -216,8 +224,14 @@ console.log(spareChange(100))
  * Console.log your result.
 */ 
 
-
-
+function evenStevens(num){
+  if(num%2 === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(evenStevens(20))
 
 /*
  * #11
@@ -232,6 +246,14 @@ console.log(spareChange(100))
  * Console.log your result.
 */ 
 
+function daClub(cover, age){
+  if(cover && age > 21){
+    return 'Welcome to the Legends Lounge.'
+  }else{
+    return 'Chuck E Cheese is across the street.'
+  }
+}
+console.log(daClub(20))
 
 /*
  * #12
@@ -246,7 +268,14 @@ console.log(spareChange(100))
  * Console.log your result.
 */ 
 
-
+function graduation(credits, grades){
+  if(credits || grades >= 2.0){
+    return 'Congratulations on a job well done.'
+  }else{
+    return 'See you in summer school'
+  }
+}
+console.log(graduation(0, 0))
 
 /*
  * #13
@@ -337,8 +366,12 @@ for(var i = 0; i<players.length; i++){
  * The function will loop through and add up all the values in the array that is passed into the function and return the total.
  * Console.log your result.
 */
-
-
+var numArray = [6, 3, 7, 2, 9];
+var total = 0;
+for(var i = 1; i<numArray.length; i++){
+  total += i
+}
+console.log(total);
 
 /*
  * #18
