@@ -314,6 +314,7 @@ console.log(moneyTrain(100))
  * Console.log budget and doughnutBought again.
 */ 
 
+
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
@@ -377,11 +378,16 @@ for(var i = 0; i<players.length; i++){
  * Console.log your result.
 */
 var numArray = [6, 3, 7, 2, 9];
-var total = 0;
-for(var i = 1; i<numArray.length; i++){
-  total += i
+
+function sumItUp(arr){
+  var total = 0;
+  for(var i = 0; i<numArray.length; i++){
+    console.log(arr[i])
+   total += arr[i]
+  }
+  return total;
 }
-console.log(total);
+console.log (sumItUp(numArray))
 
 /*
  * #18
@@ -396,6 +402,9 @@ console.log(total);
 */ 
 
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+
+allStars 
+
 /*
  * #19
  * Function - subways
